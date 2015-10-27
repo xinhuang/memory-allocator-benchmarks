@@ -12,5 +12,5 @@ mkdir build
 cd build
 cmake .. -DALLOCATOR=<Allocator Name> -DALLOCATOR_PATH=<Your Allocator Path>
 make
-bin/run
+python bin/run.py
 ```
